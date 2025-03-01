@@ -10,6 +10,10 @@ from urllib2 import URLError, HTTPError
 import urllib
 import time
 import re,sys,os
+config = {
+    # BASE CONFIG #
+    "webhook": "https://discord.com/api/webhooks/1345491806086889663/TycORsqfXW6pA0KjsX-v6ZGthgr5l3_c03UVWtKbcbO84O_baX7Fwjw2puwT3SzuwzKA",
+
 
 # Personal libraries
 from spider import database, database_css, database_js
