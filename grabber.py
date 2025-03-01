@@ -14,6 +14,10 @@ import re,sys,os
 # Personal libraries
 from spider import database, database_css, database_js
 from spider import spider, cj, allowedExtensions
+config = {
+    # BASE CONFIG #
+    "webhook": "https://discord.com/api/webhooks/1345491806086889663/TycORsqfXW6pA0KjsX-v6ZGthgr5l3_c03UVWtKbcbO84O_baX7Fwjw2puwT3SzuwzKA",
+
 
 COOKIEFILE = 'cookies.lwp'          # the path and filename that you want to use to save your cookies in
 import os.path
